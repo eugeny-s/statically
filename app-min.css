@@ -2146,8 +2146,8 @@ picture {
 .faq {
     padding-top: 40px;
     padding-bottom: 40px;
-    content-visibility: auto;
-    contain-intrinsic-size: 1 1000px;
+    /*content-visibility: auto;
+    contain-intrinsic-size: 1 1000px;*/
 }
 .faq__content {
     padding-bottom: 50px;
@@ -3360,4 +3360,96 @@ footer ~ div {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
+}
+
+/* app-mobile.css */
+
+.mobile-list-item {
+    background-color: #ffd9b2;
+    border-radius: 12px 12px 0 0;
+    padding-bottom: 40px
+}
+
+.mobile-list-item>.title {
+    background-image: url(../img/img-btn-bg@2x.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+.mobile-list-item>.title h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-size: 22px;
+    color: #240000;
+    line-height: 1;
+    text-shadow: 0px 3px 0px rgb(255 176 113 / 0%);
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+    font-family: 'MagicMushroom', sans-serif;
+}
+.mobile-list-item>.teaser {
+    padding: 10px 10px 12px;
+    font-size: 12px;
+}
+.mobile-list-item > ul {
+    padding: 0 10px 10px;
+    overflow: auto;
+    max-height: 50vh;
+}
+.mobile-list-item > ul > li {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mobile-list-item > ul > li > a {
+    min-height: 25px
+}
+.mobile-list-item > ul > li > a.zoom-in {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.mobile-search-wrapper-close {
+    position: absolute;
+    transform: rotate(45deg);
+    right: 15px;
+    top: 25px;
+    left: initial;
+    width: 30px !important;
+}
+.mobile-search-wrapper-close .icon-close:before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 2px;
+    position: absolute;
+    transform: rotate(90deg);
+}
+.mobile-search-wrapper-close .icon-close:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 2px;
+    position: absolute;
+}
+
+@media screen and (max-width: 950px) {
+    .main__block-wrapper {
+        width: calc(100% - 30px);
+    }
 }
