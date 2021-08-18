@@ -1310,7 +1310,7 @@ picture {
     left: 0;
     padding: 1rem;
 }
-.mobile-search-wrapper #searchInput {
+.mobile-search-wrapper .searchInput {
     margin-top: 2.5rem;
 }
 @media screen and (max-width: 950px) {
