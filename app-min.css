@@ -495,13 +495,13 @@ body {
     font-weight: 700;
     font-display: swap;
 }
-@font-face {
+/*@font-face {
     font-family: Helvetica;
     src: url(../fonts/HelveticaLight.woff2) format("woff2"), url(../fonts/HelveticaLight.woff) format("woff"), url(../fonts/HelveticaLight.ttf) format("truetype"), url(../fonts/HelveticaLight.svg#Helvetica) format("svg");
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-}
+}*/
 body,
 html {
     width: 100%;
