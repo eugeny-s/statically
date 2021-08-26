@@ -2638,7 +2638,7 @@ picture {
 }
 .review__category-wrapper.similar .review__category-title {
     color: #ff6a00;
-    font-size: 22px;
+    font-size: 20px;
 }
 .review__category-wrapper.related .review__category-title {
     font-size: 20px;
@@ -2823,7 +2823,7 @@ picture {
 }
 @media screen and (max-width: 1023px) {
     .review__category-btn {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 .review__category-btn:hover {
@@ -3249,7 +3249,7 @@ picture {
         width: calc(100%);
     }
     .category .review__category-wrapper > div {
-        max-width: 50%;
+        max-width: 33%;
     }
     .main__block .wrapper {
         overflow: scroll !important;
