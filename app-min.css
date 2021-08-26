@@ -2657,7 +2657,7 @@ picture {
 }
 @media screen and (max-width: 1024px) {
     .review__category-wrapper > div {
-        max-width: 50%;
+        max-width: 33%;
         padding-left: 5px;
         padding-right: 5px;
     }
