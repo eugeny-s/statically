@@ -2665,6 +2665,14 @@ picture {
         padding-bottom: 5.5rem;
     }
 }
+@media screen and (max-width: 400px) {
+    .review__category-wrapper > div {
+        max-width: 50%;
+    }
+    .category .review__category-wrapper > div {
+        max-width: 50%;
+    }
+}
 .review__category-head {
     overflow: hidden;
     position: relative;
